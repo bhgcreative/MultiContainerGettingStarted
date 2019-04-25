@@ -6,7 +6,7 @@ const {
   exec
 } = require('child_process');
 
-server.listen(8080);
+server.listen(80);
 
 const getCpuLoad = (socket) => {
   exec('cat /proc/loadavg', (err, text) => {
