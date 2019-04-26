@@ -14,4 +14,4 @@ services:
   data:
     build: ./data
     expose:
-      - "80"
+      - "8080"
